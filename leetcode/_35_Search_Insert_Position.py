@@ -1,5 +1,5 @@
 class Solution(object):
-    def searchInsert(self, nums, target):
+    def searchInsert(nums, target):
         """
         :type nums: List[int]
         :type target: int
@@ -38,3 +38,5 @@ class Solution(object):
 
         elif target == nums[left]:
             return left
+if __name__=="__main__":
+    print(Solution.searchInsert([1,2,6,8,12], 4))
