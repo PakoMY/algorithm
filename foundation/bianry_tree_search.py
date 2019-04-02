@@ -24,3 +24,4 @@ class Solution():
                 node = node.left
             node = stack.pop()
             print(node.val)
+            node = node.right
