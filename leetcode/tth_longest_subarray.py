@@ -39,6 +39,4 @@ class Solution():
             goal.append(array[i])
         print(goal)
 if __name__ == "__main__":
-    dic = {"a": 1, "b": 3, "c":2}
-    print(sorted(dic.items(), key = lambda item: item[1]))
     Solution().longest_subarray([1,2,1,3,1,1,1], 4)
