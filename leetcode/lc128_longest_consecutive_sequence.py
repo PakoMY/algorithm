@@ -1,8 +1,7 @@
-
+#coding=utf-8
 # Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
 #
 # Your algorithm should run in O(n) complexity.
-
 """思路：bruce force O(n^3), sort + for O(nlogn), hashset O(n)"""
 
 class Solution(object):

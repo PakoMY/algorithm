@@ -1,3 +1,7 @@
+"""
+一般用hashmap的话key存储的是具体的输入的值，value存储的是序号
+"""
+
 def twoSum(nums, target):
     dic = {}
     for i in range(len(nums)):
